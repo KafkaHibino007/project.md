@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+      background-color: #282d35;
+}
+
+nav {
+ display: flex;
+ align-items: center;
+ background-color: #21222A;
+ color: white;
+ height: 98px;
+padding: 30px 20px; 
+}
+
+nav > h3 {
+    position: absolute;
+    left: 15%;
+    color: #61DAFB;
+    font-size: 22px;
+}
+nav > h4 {
+  position: absolute;
+  left: 69%;
+  font-size: 20px;
+   
+}
+
+ul >li {
+    line-height: 2.0;
+}
+
+main{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    background-image:url(./images/physics.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+  background-position: right 75%;
+    
+}
+ 
+ main > h1 {
+     font-size: 45px;
+     letter-spacing: -0.05cm;
+ } 
+
+ ul > li::marker {
+     font-size: 1.5rem;
+     color: #61DAFB;
+ }  
+
+
+
+
+   
+
